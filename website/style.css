@@ -1,0 +1,113 @@
+body {
+  background: url(./imgg.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #0e0d0d;
+}
+
+.headline {
+  color: black;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.entry {
+  display: block;
+  height: 200px;
+  width: 320px;
+  color: #0e0d0d;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  border-radius: 20px;
+  text-align: left;
+  background: #32058566;
+  position: relative;
+  margin-left: 10px;
+}
+
+
+#date {
+    margin-left: 3vh;
+}
+
+#temp {
+    margin-left: 3vh;
+}
+
+#content {
+    margin-left: 3vh;
+}
+
+#city {
+    margin-left: 3vh;
+}
+
+
+
+.title{
+margin-left: 3vh;
+}
+
+input {
+  display: block;
+  height: 60px;
+  width: 320px;
+
+  background: #32058566;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding-left: 20px;
+  margin-left: 10px;
+  position: relative;
+ 
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  background: #b5d4dd;
+  color: #0e0d0d;
+  font-size: 26px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  margin-left: 50px;
+  border-radius: 20px;
+  text-align: center;
+  background: #32058566;
+}
+
+textarea {
+  background: #b5d4dd;
+  color: #0e0d0d;
+  background: #32058566;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  height: 100px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 20px;
+  margin-left: 10px;
+  position: relative;
+  
+}
+
+
+
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: #0e0d0d;
+  font-family: "Oswald", sans-serif;
+  position: relative;
+  
+  
+}
+
+
